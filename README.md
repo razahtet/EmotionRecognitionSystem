@@ -8,8 +8,18 @@ A deep learning system built to detect human emotions from live speech audio. Th
 * **Optimization:** Using mathematical modeling to maximize feature extraction accuracy.
 
 ## Datasets
+* **[Crema-D (Crowd-sourced Emotional Multimodal Actors Dataset)](https://www.kaggle.com/datasets/ejlok1/cremad):**
+  * **Stats:** 7,442 original clips from 91 actors (48 male, 43 female).
+  * **Diversity:** Ages 20–74 across various ethnicities (African American, Asian, Caucasian, Hispanic, and Unspecified).
+  * **Access:** Hosted through Hugging Face.
+  * **Link:** [razahtet/crema-d-audio](https://huggingface.co/datasets/razahtet/crema-d-audio)
+    #### How to access the data in code:
+    ```python
+    from datasets import load_dataset
+    dataset = load_dataset("razahtet/crema-d-audio")
+    ```
+## Future Datasets
 * **[AESDD (Acted Emotional Speech Dynamic Database)](https://github.com/SuperKogito/SER-datasets):** Emotional Speech Dataset that contains acted emotional utterances for mulitple categories including happiness, anger, sadness, and neutrality.
-* **[audioMNIST](https://github.com/soerenab/AudioMNIST):** 30,000 audio samples of spoken digits from 60 different speakers to provide additional diversity for model training and validation.
 
 ## Project Roadmap (In Progress)
 * **Data Science Pipeline:** Complete collection, cleaning, and feature engineering.
