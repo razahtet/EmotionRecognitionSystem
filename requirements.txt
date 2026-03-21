@@ -1,0 +1,5 @@
+numpy
+datasets[audio] 
+torch 
+torchvision 
+torchaudio
