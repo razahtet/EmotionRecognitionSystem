@@ -1,5 +1,11 @@
 numpy
-datasets[audio] 
-torch 
-torchvision 
+pandas
+matplotlib
+scikit-learn
+librosa
+soundfile
 torchaudio
+torch
+torchvision
+datasets[audio]<4.0.0
+tqdm
